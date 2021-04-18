@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charest="utf-8">
+        <title>리스트(목록)</title>
+        <style>
+            /* CSS3 적용 */
+            ul { list-style-type: none;}
+        </style>
+        <!--
+        < 목록 태그 > 아주 중요
+        1. 순서 없는 목록 : ul 태그, unordered list
+        - 블릿(bullet) : disc(꽉찬 원, 기본), square(꽉찬 사각형), circle(빈 원)
+        
+        2. 순서 있는 목록 : ol 태그, ordered list
+        - 숫자 : 1(아라비아 숫자, 기본값), A(알파벳 대문자), a(알파벳 소문자), I(로마자 대문자), i(로마자 소문자)
+        - type, start, reversed 옵션 사용 가능
+
+        -->
+    </head>
+    <body>
+        <h2>프로야구팀 리스트</h2>
+        <ul type="disc">
+            <li>NC 다이노스</li>
+            <li>삼성 라이온스</li>
+            <li>키움 히어로즈</li>
+            <li>KIA 타이거즈</li>
+            <li>SSG 랜더스</li>
+            <li>KT 위즈</li>
+            <li>롯데 자이언츠</li>
+            <li>LG 트윈스</li>
+            <li>두산 베어스</li>
+            <li>한화 이글스</li>
+        </ul>
+        <hr>
+        <h2>프로야구팀 순위</h2>
+        <ol type="1" reversed start="5">
+            <li>LG 트윈스</li>
+            <li>NC 다이노스</li>
+            <li>삼성 라이온스</li>
+            <li>키움 히어로즈</li>
+            <li>롯데 자이언츠</li>
+            <li>SSG 랜더스</li>
+            <li>두산 베어스</li>
+            <li>KT 위즈</li>
+            <li>한화 이글즈</li>
+            <li>KIA 타이거즈</li>
+
+        </ol>
+    </body>
+</html>

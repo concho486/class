@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>테이블 연습</title>
+        <style>
+            table {
+                width: 400px;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            tr { height: 30px;}
+            th, td { border: 1px solid black; text-align: center;}
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>시간</th>
+                <th>월요일</th>
+                <th>화요일</th>
+                <th>수요일</th>
+                <th>목요일</th>
+            </tr>
+            <tr>
+                <td>1교시</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="3">웹응용</td>
+            </tr>
+            <tr>
+                <td>2교시</td>
+                <td rowspan="2">웹프로그래밍</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3교시</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4교시</td>
+                <td></td>
+                <td colspan="2">자바스크립트</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5교시</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>

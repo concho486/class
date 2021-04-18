@@ -1,0 +1,26 @@
+
+프로젝트 폴더 만드는 규칙
+1. 영어, 영어대소문자 구분
+2. 숫자는 사용가능(첫글자로는 사용하지 않음)
+3. 공백 사용하지 않음
+4. 기호 사용하지 않음(유일한 기호, _(언더바))
+
+목표 : 최소 300타
+
+250 : 조금 더 연습하도록 
+200 : 많이 연습하도록
+
+visual code download 구글 검색 - html 
+
+http://www.naver.com
+
+http : HyperText Transfer Protocol (하이퍼 텍스트 전송 규약)
+www : world wide web
+
+브라우저(browser)웹을 볼 수 있는 도구, 프로그램 
+netscape -> IE(internet explorer) ->Firefox, Opera, Chrome -> Chrome
+
+korean
+open in browser
+
+html : hypertext markup language
